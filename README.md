@@ -22,33 +22,33 @@ source devel/setup.bash && roslaunch ros_gp_mpc gp_mpc_wrapper.launch environmen
 # VINS-FUISOPN
 ## No.1:
 ```
-roslaunch realsense2_camera rs_camera_vins.launch
+source devel/setup.bash && roslaunch realsense2_camera rs_camera_vins.launch
 ```
 ## No.2: 
 ```
-roslaunch vins vins_rviz.launch
+source devel/setup.bash && roslaunch vins vins_rviz.launch
 ```
 ## No.3: 
 ```
-rosrun vins vins_node /home/alex/TEST-202111/VINS-FUSION/src/VINS-Fusion/config/realsense_d435i/realsense_stereo_imu_config.yaml
+source devel/setup.bash && rosrun vins vins_node /home/alex/TEST-202111/VINS-FUSION/src/VINS-Fusion/config/realsense_d435i/realsense_stereo_imu_config.yaml
 
 ```
 ## No.4 (optional): 
 ```
-rosrun loop_fusion loop_fusion_node /home/alex/TEST-202111/VINS-FUSION/src/VINS-Fusion/config/euroc/euroc_stereo_imu_config.yaml 
+source devel/setup.bash && rosrun loop_fusion loop_fusion_node /home/alex/TEST-202111/VINS-FUSION/src/VINS-Fusion/config/euroc/euroc_stereo_imu_config.yaml 
 
 ```
 # VINS-MOMO
 ## No.1:
 ```
-roslaunch realsense2_camera rs_camera.launch 
+source devel/setup.bash && roslaunch realsense2_camera rs_camera.launch 
 ```
 ## No.2: 
 ```
-roslaunch vins_estimator realsense_color.launch 
+source devel/setup.bash && roslaunch vins_estimator realsense_color.launch 
 ```
 ## No.3: 
 ```
-roslaunch vins_estimator vins_rviz.launch
+source devel/setup.bash && roslaunch vins_estimator vins_rviz.launch
 
 ```
