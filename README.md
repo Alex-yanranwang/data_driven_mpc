@@ -33,9 +33,17 @@ source devel/setup.bash && roslaunch vins vins_rviz.launch
 source devel/setup.bash && rosrun vins vins_node /home/alex/TEST-202111/VINS-FUSION/src/VINS-Fusion/config/realsense_d435i/realsense_stereo_imu_config.yaml
 
 ```
+```
+source devel/setup.bash && rosrun vins vins_node /home/alex/TEST-202111/VINS-Fusion-PIX4/src/VINS-Fusion/config/realsense_d435i/realsense_stereo_imu_config.yaml
+
+```
 ## No.4 (optional): 
 ```
 source devel/setup.bash && rosrun loop_fusion loop_fusion_node /home/alex/TEST-202111/VINS-FUSION/src/VINS-Fusion/config/euroc/euroc_stereo_imu_config.yaml 
+
+```
+```
+source devel/setup.bash && rosrun loop_fusion loop_fusion_node /home/alex/VINS-Fusion-PIX4/VINS-FUSION/src/VINS-Fusion/config/euroc/euroc_stereo_imu_config.yaml 
 
 ```
 # VINS-MOMO
