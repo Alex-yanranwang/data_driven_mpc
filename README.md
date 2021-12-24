@@ -19,7 +19,7 @@ source devel/setup.bash && roslaunch resilient_planner rotors_sim.launch
 export PYTHONPATH=$PYTHONPATH:/home/alex/TEST-202111/KinoGPMPC-1110/src/data_driven_mpc/ros_gp_mpc
 source devel/setup.bash && roslaunch ros_gp_mpc gp_mpc_wrapper.launch environment:=gazebo flight_mode:=kino plot:=True
 ```
-# VINS-FUISOPN
+# VINS-FUISON
 ## No.1:
 ```
 source devel/setup.bash && roslaunch realsense2_camera rs_camera_vins.launch
