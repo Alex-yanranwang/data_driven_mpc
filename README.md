@@ -43,7 +43,7 @@ source devel/setup.bash && rosrun loop_fusion loop_fusion_node /home/alex/TEST-2
 
 ```
 ```
-source devel/setup.bash && rosrun loop_fusion loop_fusion_node /home/alex/VINS-Fusion-PIX4/VINS-FUSION/src/VINS-Fusion/config/euroc/euroc_stereo_imu_config.yaml 
+source devel/setup.bash && rosrun loop_fusion loop_fusion_node /home/alex/TEST-202111/VINS-Fusion-PIX4/VINS-FUSION/src/VINS-Fusion/config/euroc/euroc_stereo_imu_config.yaml 
 
 ```
 # VINS-MOMO
