@@ -46,6 +46,11 @@ source devel/setup.bash && rosrun loop_fusion loop_fusion_node /home/alex/TEST-2
 source devel/setup.bash && rosrun loop_fusion loop_fusion_node /home/alex/TEST-202111/VINS-Fusion-PIX4/VINS-FUSION/src/VINS-Fusion/config/euroc/euroc_stereo_imu_config.yaml 
 
 ```
+## No.5 bridge:
+'''
+source devel/setup.bash && roslaunch vins bridge_mavros_py.launch
+'''
+
 # VINS-MOMO
 ## No.1:
 ```
