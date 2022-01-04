@@ -1,4 +1,4 @@
-# terminal commands
+# Terminal commands
 ## No.1:
 ```
 source devel/setup.bash && roslaunch rotors_gazebo fast_with_vi_sensor.launch
